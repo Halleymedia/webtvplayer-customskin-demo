@@ -1,0 +1,13 @@
+{
+  "name": "webtvplayer-customskin-es6",
+  "version": "1.0.0",
+  "description": "An absolute bare example of how to implement a custom skin using ES6.",
+  "scripts": {
+    "serve": "serve src -l 3000"
+  },
+  "author": "Halleymedia snc",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "eslint.enable": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+}

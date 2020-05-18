@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom skin demo</title>
+</head>
+<body>
+    <div id="player-container" style="width: 640px; height: 360px;"></div>
+    <script src="https://api.civicam.it/test/v1/embed/webtvplayer.js?apiKey=c1b73933-618f-43bc-88f3-29f449fe3dcd"></script>
+    <script src="./skin.js"></script>
+    <script>
+        //Embed the player
+        const playerContainer = document.getElementById("player-container");
+        const playerOptions = { skin: WebTvPlayer.MyCustomSkin, segment: 1.0 };
+        const videoId = 1;
+        WebTvPlayer.withCredentials = false;
+        const webTvPlayer = new WebTvPlayer(playerContainer, videoId, playerOptions);
+    </script>
+</body>
+</html>
